@@ -11,7 +11,7 @@ Easily import property listings from any XML or CSV file to the Realia theme wit
 
 == Description ==
 
-The Realia Add-On for [WP All Import](https://wordpress.org/support/plugin/wp-all-import) makes it easy to bulk import your property listings to the Realia theme in less than 10 minutes.
+The Realia Add-On for [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import") makes it easy to bulk import your property listings to the Realia theme in less than 10 minutes.
 
 The left side shows all of the fields that you can import to and the right side displays a property listing from your XML/CSV file. Then you can simply drag & drop the data from your XML or CSV into the Realia fields to import it.
 
