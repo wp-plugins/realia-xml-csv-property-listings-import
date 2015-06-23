@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=_wvz0FfbutA
 
 * Easily import property images, and slider settings.
 
-* Supports files in any format and structure. There are no requirements that the data in your file be organized in a certain way. Realia CSV imports are easy, no matter the structure of your file. Realia XML imports are flexible and work with any XML file.
+* Supports files in any format and structure. There are no requirements that the data in your file be organized in a certain way. CSV imports into Realia are easy, no matter the structure of your file.
 
 * Supports files of practically unlimited size by automatically splitting them into chunks. WP All Import is limited solely by your server settings.
 
