@@ -1,17 +1,19 @@
-=== Import Property Listings into Realia Theme ===
+=== Import Property Listings into Realia ===
 Contributors: soflyy, wpallimport
 Tags: real estate, import real estate, import real estate listings, import properties, import property listings, realia, import realia, import realia properties, import realia listings
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.1.0
 Tested up to: 4.2.2
-Stable tag: 1.0.2
+Stable tag: 2.0.0
 
-Easily import property listings from any XML or CSV file to the Realia theme with the Realia Add-On for WP All Import.
+Easily import property listings from any XML or CSV file into Realia with the Realia Add-On for WP All Import. Supports Realia theme 3.x, 4.x, and the Realia plugin.
 
 == Description ==
 
 The Realia Add-On for [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import") makes it easy to bulk import your property listings to the Realia theme in less than 10 minutes.
+
+**Supports Realia theme 3.x, 4.x, and the Realia plugin.**
 
 The left side shows all of the fields that you can import to and the right side displays a property listing from your XML/CSV file. Then you can simply drag & drop the data from your XML or CSV into the Realia fields to import it.
 
@@ -83,6 +85,9 @@ Aside from making your import easier and simpler, the Realia Add-On will fully s
 The Realia Add-On for WP All Import uses the Google Maps API to import your location data. For free, and without registration, the API allows you to make 2,500 requests per day. If you need more than that you can create a Google for Work account to make up to 100,000 requests per day.
 
 == Changelog ==
+
+= 2.0.0 =
+* Add support for Realia 4.x and the Realia plugin
 
 = 1.0.2 =
 * Fix admin notice bug
