@@ -7,7 +7,7 @@ Requires at least: 4.1.0
 Tested up to: 4.2.2
 Stable tag: 2.0.0
 
-Easily import property listings from any XML or CSV file into Realia with the Realia Add-On for WP All Import. Supports Realia theme 3.x, 4.x, and the Realia plugin.
+Easily import property listings into Realia with the Realia Add-On for WP All Import. Supports Realia theme 3.x, 4.x, and the Realia plugin.
 
 == Description ==
 
