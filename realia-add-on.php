@@ -23,6 +23,10 @@ function realia_version( $len = 1 ) {
 
 		$realia_version = 4;
 
+	} else {
+
+		$realia_version = null;
+
 	}
 
 	return $realia_version;
