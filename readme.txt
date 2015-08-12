@@ -87,7 +87,8 @@ The Realia Add-On for WP All Import uses the Google Maps API to import your loca
 == Changelog ==
 
 = 2.0.1 =
-* Fixed bug that hid Images section for non-property imports
+* Fix bug that hid Images section for non-property imports
+* Fix bug when runnign Realia Add-On without Realia plugin/theme
 
 = 2.0.0 =
 * Add support for Realia 4.x and the Realia plugin
