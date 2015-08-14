@@ -4,12 +4,18 @@
 Plugin Name: WP All Import - Realia Add-On
 Plugin URI: http://www.wpallimport.com/
 Description: Import properties into Realia. Supports Realia theme 3.x, 4.x, and the Realia plugin.
-Version: 2.0.1
+Version: 2.0.2
 Author: Soflyy
 */
 
 
 include "rapid-addon.php";
+
+if ( ! function_exists( 'is_plugin_active' ) ) {
+
+	require_once ABSPATH . 'wp-admin/includes/plugin.php';
+
+}
 
 function realia_version( $len = 1 ) {
 
@@ -19,7 +25,7 @@ function realia_version( $len = 1 ) {
 
 		$realia_version = substr( $realia_version->get( 'Version' ), 0, $len);
 
-	} elseif ( class_exists( 'Realia' ) ) {
+	} elseif ( is_plugin_active('realia/realia.php') ) {
 
 		$realia_version = 4;
 
@@ -313,14 +319,15 @@ $realia_addon->admin_notice();
 
 $realia_version = wp_get_theme();
 
-if ( $realia_version->get( 'Name' ) == 'Realia' || class_exists( 'Realia' ) ) { 
+if ( $realia_version->get( 'Name' ) == 'Realia' || is_plugin_active('realia/realia.php') ) { 
 
 	$realia_addon->disable_default_images();
 
 	$realia_addon->run(
-	array(
-		"post_types" => array("property")
-	));
+		array(
+			"post_types" => array("property")
+		)	
+	);
 
 }
 

@@ -5,7 +5,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.1.0
 Tested up to: 4.3
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 
 Easily import property listings into Realia with the Realia Add-On for WP All Import. Supports Realia theme 3.x, 4.x, and the Realia plugin.
 
@@ -85,6 +85,9 @@ Aside from making your import easier and simpler, the Realia Add-On will fully s
 The Realia Add-On for WP All Import uses the Google Maps API to import your location data. For free, and without registration, the API allows you to make 2,500 requests per day. If you need more than that you can create a Google for Work account to make up to 100,000 requests per day.
 
 == Changelog ==
+
+= 2.0.2 =
+* Fix multisite add-on initialization bug
 
 = 2.0.1 =
 * Fix bug that hid Images section for non-property imports
